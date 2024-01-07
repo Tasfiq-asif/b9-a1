@@ -214,7 +214,7 @@ header .banner p {
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-around;
   height: 482px;
@@ -223,5 +223,124 @@ header .banner p {
   margin: 100px auto;
   flex-shrink: 0;
   text-align: center;
-  padding: 10px;
+}
+
+.address-list span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.address-list {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.address-list button {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  margin-top: 64px;
+}
+
+#coming-soon .coming-soon-container {
+  display: flex;
+  max-width: 1320px;
+  width: 82.5%;
+  height: 482px;
+  justify-content: space-between;
+  margin: 200px auto;
+}
+
+#coming-soon .coming-soon-container .coming-soon-offer {
+  display: flex;
+  flex-direction: column;
+  width: 393px;
+  gap: 22px;
+  text-align: start;
+}
+
+#coming-soon .coming-soon-container .coming-soon-offer .highlight {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#coming-soon .coming-soon-container .coming-soon-offer h2 {
+  color: #070211;
+
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+#coming-soon .coming-soon-container .coming-soon-offer p {
+  color: rgba(7, 2, 17, 0.6);
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+#coming-soon .coming-soon-container .coming-soon-img {
+  width: 463px;
+  height: 463px;
+  flex-shrink: 0;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-30%);
+
+  margin-right: 10px;
+}
+
+#coming-soon .coming-soon-container .coming-soon-year h2{
+  color: #F00;
+
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#coming-soon .coming-soon-container .coming-soon-year p{
+  color: rgba(7, 2, 17, 0.60);
+width: 276px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+#coming-soon .coming-soon-container .coming-soon-year img{
+  width: 140px;
+height: 140px;
+flex-shrink: 0;
+margin-top: 30px;
 }
