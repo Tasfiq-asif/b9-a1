@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url("resources/Banner-Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: center;
+    height: 600px; /* Adjust the height as needed */
+    width: 82.5%; /* Set the width to 82.5% of the screen */
+    max-width: 1320px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    
+
+
+    
+    
+    /* margin: 50px auto;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat ;
+    text-align: center;
+    height: 600px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center; */
+        
+}
+
+/* header .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+header .banner h1{
+   
+color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+width: 632px;
+height: 190px;
+}
+
+header .banner p{
+   
+color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 259px;
+height: 40px ;
+margin: auto;
+
+}
