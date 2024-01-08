@@ -455,9 +455,8 @@ header .banner p {
   width: 896px;
 }
 
-
-#subscribe .subscribe-container .subscription-form{
-    margin-top: 25px;
+#subscribe .subscribe-container .subscription-form {
+  margin-top: 25px;
 }
 #subscribe .subscribe-container .subscription-form input {
   width: 494px;
@@ -473,7 +472,6 @@ header .banner p {
   line-height: normal;
   border-radius: 50px;
   background: #fff;
-  
 }
 #subscribe .subscribe-container .subscription-form button {
   width: 210px;
@@ -495,9 +493,98 @@ header .banner p {
 }
 
 input:focus::placeholder {
-        color: transparent;
-      }
-
-#subscribe .subscribe-container .subscription-form button:hover{
-    color: rgba(60, 33, 210, 0.689);
+  color: transparent;
 }
+
+#subscribe .subscribe-container .subscription-form button:hover {
+  color: rgba(60, 33, 210, 0.689);
+}
+
+.footer-container {
+  background: #070211;
+  width: 100vw;
+  height: 609px;
+  flex-shrink: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: start;
+}
+
+hr {
+  width: 1320px;
+  height: 1px;
+  margin: auto;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-container .contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .contacts .address-building {
+  height: 80px;
+  width: 375px;
+  margin-top: 100px;
+  margin-left: 140px;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+.footer-container .contacts .website-phone {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin-right: 291px;
+  margin-top: 100px;
+}
+
+#phone::before {
+  content: url(resources/Call.png);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 4px;
+}
+
+#website::before {
+  content: url(resources/Website.png);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  top: 4px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.copywrite{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 20px 140px 120px; 
+}
+
